@@ -3,9 +3,9 @@
     <div
       class="mx-auto w-full flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8"
     >
-      <NuxtLink class="block text-teal-600" href="/"
-        ><img src="/img/logo.png" class="w-24"
-      /></NuxtLink>
+      <NuxtLink class="block text-teal-600" href="/">
+        <img src="/img/logo.png" class="w-24" />
+      </NuxtLink>
 
       <div class="flex flex-1 items-center justify-end md:justify-between">
         <nav aria-label="Site Nav" class="hidden md:block flex-1">
