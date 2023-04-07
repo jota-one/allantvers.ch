@@ -7,23 +7,14 @@
     />
     <div class="p-8 md:p-12 lg:px-16 lg:py-24">
       <div class="mx-auto max-w-xl text-center sm:text-left">
-        <h2 class="text-2xl font-bold text-gray-900 md:text-3xl">
-          On fait des tas de trucs!
-        </h2>
-
-        <p class="text-gray-500 md:mt-4">
-          Là normalement on explique un peu ce qu'on fait, mais genre vite fait,
-          quoi! Bon faut quand-même donner envie de cliquer sur le bouton. Par
-          exemple, si je vous dis: on a un nouveau camp qui démarre cet été.
-          Paf! Ca pète!
-        </p>
+        <slot />
 
         <div class="mt-4 md:mt-8">
           <NuxtLink
             href="/projects/totem"
             class="inline-block rounded bg-emerald-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
           >
-            Et donc tu cliques...
+            {{ cta }}
           </NuxtLink>
         </div>
       </div>
@@ -31,4 +22,9 @@
   </section>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+type Props = {
+  cta: string
+}
+defineProps<Props>()
+</script>

@@ -1,14 +1,11 @@
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   modules: ['@nuxt/content', '@nuxtjs/tailwindcss'],
   content: {
-    documentDriven: true
+    documentDriven: true,
   },
   tailwindcss: {
     config: {
-      content: [
-        'content/**/*.md'
-      ]
-    }
-  }
+      content: ['content/**/*.md'],
+    },
+  },
 })
