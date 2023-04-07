@@ -1,5 +1,4 @@
 {
-  "private": true,
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -8,7 +7,19 @@
   },
   "devDependencies": {
     "@nuxt/content": "^2.5.2",
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@nuxtjs/tailwindcss": "^6.6.5",
-    "nuxt": "^3.3.3"
+    "nuxt": "^3.3.3",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "eslint": "^8.37.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-vue": "^9.10.0",
+    "prettier": "^2.8.7",
+    "typescript": "^5.0.3",
+    "vite-plugin-eslint": "^1.8.1"
   }
 }
