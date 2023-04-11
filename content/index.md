@@ -1,10 +1,11 @@
-# Document Driven
-
-
-This page corresponds to the `/` route of your website. You can delete it or create another file in the `content/` directory.
-
-Try to navigate to [/about](/about).
-
 ---
+navigation: false
+---
+::cta{cta="Et donc là, tu cliques"}
+# [On fait des tas de trucs]{.text-4xl .block .mb-8}
 
-Look at the [Document Driven documentation](https://content.nuxtjs.org/guide/writing/document-driven) to learn more.
+Là normalement on explique un peu ce qu'on fait, mais genre vite fait,
+quoi! Bon faut quand-même donner envie de cliquer sur le bouton. Par
+exemple, si je vous dis: on a un nouveau camp qui démarre cet été.
+Paf! Ca pète!
+::
